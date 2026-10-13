@@ -1,8 +1,5 @@
 # Architecture de Kodda (pour développeurs / IA)
 
-Document de référence en français décrivant l'ensemble du code, pour qu'une autre
-personne (ou IA) comprenne immédiatement l'architecture.
-
 ## Vue d'ensemble
 - **Backend** : FastAPI (`backend/server.py`), base **MongoDB** (driver `motor`), auth **JWT**.
   Toutes les routes sont préfixées par `/api`. Les montants/dates sont normalisés
